@@ -1,0 +1,6 @@
+.venv
+__pycache__
+Notebooks
+Data
+requirements.in
+Images

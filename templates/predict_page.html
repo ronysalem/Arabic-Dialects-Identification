@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic Dialect Classification</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Arabic Dialect Classification</h1>
+        <div class="model-prediction">
+            <form action="/predict" method="post">
+                <label for="text">Enter Text:</label>
+                <input type="text" id="text" name="text" value="{{ original_text | default('') }}" required>
+                <button type="submit">Predict</button>
+            </form>
+            {% if result %}
+            <div class="result">
+                <h2>Prediction Result:</h2>
+                <p> is: {{ result }}</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
