@@ -27,7 +27,7 @@ in this project i used variety of models here is a summary of the results:
 # How to Run 
 1. Clone the Repository
 ```
-git clone https://github.com/ronysalem/Arabic-Dialect-Identification
+git clone https://github.com/ronysalem/Arabic-Dialects-Identification
 ```
 
 2. Navigate to the Project Directory
