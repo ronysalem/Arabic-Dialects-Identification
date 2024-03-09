@@ -2,7 +2,7 @@
 This NLP project purpose is to predict the dialect of Arabic language in tweets
 
 # Dataset
-The dataset used in this project is a collection of Tweets labeled with their corresponding dialects, The dialects are from 5 countries which are Egypt ('EG'), Lebanon ('LB'), Libya ('LY'), Sudan ('SD'), and Morocco ('MA') and it's discussed in this paper 
+The dataset used in this project is a collection of Tweets labeled with their corresponding dialects, The dialects are from 5 countries which are Egypt ('EG'), Lebanon ('LB'), Libya ('LY'), Sudan ('SD'), and Morocco ('MA') 
 
 
 # Expriments 
@@ -32,7 +32,7 @@ git clone https://github.com/ronysalem/Arabic-Dialects-Identification
 
 2. Navigate to the Project Directory
 ```
-cd Arabic-Dialect-Identification
+cd Arabic-Dialects-Identification
 ```
 
 
